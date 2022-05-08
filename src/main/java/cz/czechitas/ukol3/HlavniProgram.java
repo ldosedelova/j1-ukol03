@@ -37,8 +37,9 @@ public class HlavniProgram {
 
         lenkyPocitac.zapniSe();
         lenkyPocitac.zapniSe();
-        lenkyPocitac.vypniSe();
-        lenkyPocitac.vypniSe();
-        lenkyPocitac.vypniSe();
+        lenkyPocitac.vytvorSouborOVelikosti(97_016_714_312L);
+        lenkyPocitac.vytvorSouborOVelikosti(1L);
+        lenkyPocitac.vymazSouboryOVelikosti(229_932_973_056L);
+        lenkyPocitac.vymazSouboryOVelikosti(312L);
     }
 }

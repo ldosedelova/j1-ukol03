@@ -16,8 +16,9 @@ public class Disk {
         return vyuziteMisto;
     }
 
-    public void setVyuziteMisto(long vyuziteMisto) {
+    public long setVyuziteMisto(long vyuziteMisto) {
         this.vyuziteMisto = vyuziteMisto;
+        return vyuziteMisto;
     }
 
     @Override
